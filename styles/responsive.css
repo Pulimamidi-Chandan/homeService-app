@@ -1,0 +1,253 @@
+@media screen and (max-width: 768px) {
+   * {
+      font-size: 5px;
+   }
+
+   .container {
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   /* ----------------head and hero section-------------- */
+   .head-right {
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+   }
+
+   .navbar {
+      display: none;
+      position: fixed;
+      height: 100vh;
+      top: 0;
+      width: 60%;
+      background-color: whitesmoke;
+      right: 0;
+      z-index: 100;
+   }
+
+   .navbar-openMenu {
+      display: block;
+   }
+
+   nav .nav-list {
+      display: flex;
+      flex-direction: column;
+      margin: 3rem;
+      gap: 5rem;
+   }
+
+   .link-item {
+      color: #094B72;
+      font-size: 3rem;
+      font-weight: 600;
+   }
+
+   .navbar svg {
+      display: block;
+      position: absolute;
+      right: 5%;
+      top: 2%;
+      cursor: pointer;
+   }
+
+   .navber-icons {
+      display: block;
+      width: 5rem;
+      cursor: pointer;
+   }
+
+   .search-container {
+      border-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 5rem;
+      align-items: center;
+   }
+
+   .input-search-style {
+      font-size: 2rem;
+      margin-left: 0rem;
+   }
+
+   .service-list {
+      width: 80%;
+      border-radius: 0;
+   }
+
+   .logo svg {
+      width: 90px;
+      height: auto;
+   }
+
+   .hero-right-image {
+      display: none;
+   }
+
+   .hero {
+      width: 100%;
+   }
+
+   .hero-titles-font {
+      width: 100%;
+   }
+
+   .hero-companies-logo img {
+      width: 30%;
+   }
+
+   /* ----------------why section-------------- */
+   .why {
+      display: block;
+   }
+
+   .Why-right-layout {
+      text-align: center;
+      margin-bottom: 5%;
+   }
+
+   .why-boxes-layout {
+      width: 100%;
+   }
+
+   .box svg {
+      width: 20px;
+   }
+
+   /* ----------------count section and feedback-------------- */
+   .count_details {
+      width: 100%;
+   }
+
+   .feedback,
+   .form {
+      width: 100%;
+   }
+
+   .section-complex {
+      height: 25vh;
+      width: 100%;
+   }
+
+   .swiftfix-infos {
+      display: block;
+   }
+
+   .list-infos {
+      margin-top: 5%;
+      width: 100%;
+   }
+
+   /* ----------------contact page-------------- */
+   .form-contact-container {
+      display: block;
+   }
+
+   .form {
+      width: 100%;
+   }
+
+   .map-container iframe {
+      width: 100%;
+      margin-top: 10%;
+      height: 60vh;
+   }
+
+   .map-container {
+      width: 100%;
+   }
+
+   .services-content {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .service-box {
+      width: 70%;
+      margin-bottom: 5%;
+   }
+
+   .first-row {
+      display: block;
+   }
+
+   .order-img {
+      width: 100%;
+      height: 40%;
+   }
+
+   .order-box {
+      width: 100%;
+      height: 100%;
+   }
+
+   .order-service-hover {
+      width: 100%;
+   }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   * {
+      font-size: 7px;
+   }
+
+   .hero-img-animation img {
+      z-index: 2;
+      width: 80%;
+   }
+
+   #hero-circle-back {
+      width: 80%;
+
+   }
+
+   #hero-circle-front {
+      width: 100%;
+   }
+
+   .form-contact-container {
+      display: block;
+   }
+
+   .form {
+      width: 100%;
+   }
+
+   .map-container iframe {
+      width: 100%;
+      margin-top: 10%;
+      height: 60vh;
+   }
+
+   .map-container {
+      width: 100%;
+   }
+
+   #about-hero-circle-hover {
+      width: 70%;
+
+   }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+   * {
+      font-size: 7px;
+   }
+
+   .hero-img-animation img {
+      z-index: 2;
+      width: 80%;
+   }
+
+   #hero-circle-back {
+      width: 80%;
+
+   }
+
+   #hero-circle-front {
+      width: 100%;
+   }
+}
